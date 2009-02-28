@@ -1,0 +1,5 @@
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3\bin\Release\Pop3.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3\bin\Release\Pop3.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3\obj\Release\Pop3.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3\obj\Release\Pop3.pdb
