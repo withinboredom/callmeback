@@ -33,11 +33,11 @@
             this.QuitButton = new System.Windows.Forms.Button();
             this.AboutButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lightStandby = new System.Windows.Forms.RadioButton();
-            this.lightCheck = new System.Windows.Forms.RadioButton();
-            this.lightSend = new System.Windows.Forms.RadioButton();
-            this.lightCall = new System.Windows.Forms.RadioButton();
             this.lightRecord = new System.Windows.Forms.RadioButton();
+            this.lightCall = new System.Windows.Forms.RadioButton();
+            this.lightSend = new System.Windows.Forms.RadioButton();
+            this.lightCheck = new System.Windows.Forms.RadioButton();
+            this.lightStandby = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,7 @@
             this.OptionsButton.TabIndex = 0;
             this.OptionsButton.Text = "Options";
             this.OptionsButton.UseVisualStyleBackColor = true;
+            this.OptionsButton.Click += new System.EventHandler(this.OptionsButton_Click);
             // 
             // ActivatedBox
             // 
@@ -68,6 +69,7 @@
             this.QuitButton.TabIndex = 2;
             this.QuitButton.Text = "Quit";
             this.QuitButton.UseVisualStyleBackColor = true;
+            this.QuitButton.Click += new System.EventHandler(this.QuitButton_Click);
             // 
             // AboutButton
             // 
@@ -77,6 +79,7 @@
             this.AboutButton.TabIndex = 3;
             this.AboutButton.Text = "About";
             this.AboutButton.UseVisualStyleBackColor = true;
+            this.AboutButton.Click += new System.EventHandler(this.AboutButton_Click);
             // 
             // groupBox1
             // 
@@ -92,41 +95,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Call Status";
             // 
-            // lightStandby
+            // lightRecord
             // 
-            this.lightStandby.AutoSize = true;
-            this.lightStandby.Enabled = false;
-            this.lightStandby.Location = new System.Drawing.Point(6, 19);
-            this.lightStandby.Name = "lightStandby";
-            this.lightStandby.Size = new System.Drawing.Size(64, 17);
-            this.lightStandby.TabIndex = 0;
-            this.lightStandby.TabStop = true;
-            this.lightStandby.Text = "Standby";
-            this.lightStandby.UseVisualStyleBackColor = true;
-            // 
-            // lightCheck
-            // 
-            this.lightCheck.AutoSize = true;
-            this.lightCheck.Enabled = false;
-            this.lightCheck.Location = new System.Drawing.Point(6, 42);
-            this.lightCheck.Name = "lightCheck";
-            this.lightCheck.Size = new System.Drawing.Size(98, 17);
-            this.lightCheck.TabIndex = 1;
-            this.lightCheck.TabStop = true;
-            this.lightCheck.Text = "Checking Email";
-            this.lightCheck.UseVisualStyleBackColor = true;
-            // 
-            // lightSend
-            // 
-            this.lightSend.AutoSize = true;
-            this.lightSend.Enabled = false;
-            this.lightSend.Location = new System.Drawing.Point(6, 65);
-            this.lightSend.Name = "lightSend";
-            this.lightSend.Size = new System.Drawing.Size(92, 17);
-            this.lightSend.TabIndex = 2;
-            this.lightSend.TabStop = true;
-            this.lightSend.Text = "Sending Email";
-            this.lightSend.UseVisualStyleBackColor = true;
+            this.lightRecord.AutoSize = true;
+            this.lightRecord.Enabled = false;
+            this.lightRecord.Location = new System.Drawing.Point(6, 111);
+            this.lightRecord.Name = "lightRecord";
+            this.lightRecord.Size = new System.Drawing.Size(74, 17);
+            this.lightRecord.TabIndex = 4;
+            this.lightRecord.TabStop = true;
+            this.lightRecord.Text = "Recording";
+            this.lightRecord.UseVisualStyleBackColor = true;
             // 
             // lightCall
             // 
@@ -140,17 +119,41 @@
             this.lightCall.Text = "Calling";
             this.lightCall.UseVisualStyleBackColor = true;
             // 
-            // lightRecord
+            // lightSend
             // 
-            this.lightRecord.AutoSize = true;
-            this.lightRecord.Enabled = false;
-            this.lightRecord.Location = new System.Drawing.Point(6, 111);
-            this.lightRecord.Name = "lightRecord";
-            this.lightRecord.Size = new System.Drawing.Size(74, 17);
-            this.lightRecord.TabIndex = 4;
-            this.lightRecord.TabStop = true;
-            this.lightRecord.Text = "Recording";
-            this.lightRecord.UseVisualStyleBackColor = true;
+            this.lightSend.AutoSize = true;
+            this.lightSend.Enabled = false;
+            this.lightSend.Location = new System.Drawing.Point(6, 65);
+            this.lightSend.Name = "lightSend";
+            this.lightSend.Size = new System.Drawing.Size(92, 17);
+            this.lightSend.TabIndex = 2;
+            this.lightSend.TabStop = true;
+            this.lightSend.Text = "Sending Email";
+            this.lightSend.UseVisualStyleBackColor = true;
+            // 
+            // lightCheck
+            // 
+            this.lightCheck.AutoSize = true;
+            this.lightCheck.Enabled = false;
+            this.lightCheck.Location = new System.Drawing.Point(6, 42);
+            this.lightCheck.Name = "lightCheck";
+            this.lightCheck.Size = new System.Drawing.Size(98, 17);
+            this.lightCheck.TabIndex = 1;
+            this.lightCheck.TabStop = true;
+            this.lightCheck.Text = "Checking Email";
+            this.lightCheck.UseVisualStyleBackColor = true;
+            // 
+            // lightStandby
+            // 
+            this.lightStandby.AutoSize = true;
+            this.lightStandby.Enabled = false;
+            this.lightStandby.Location = new System.Drawing.Point(6, 19);
+            this.lightStandby.Name = "lightStandby";
+            this.lightStandby.Size = new System.Drawing.Size(64, 17);
+            this.lightStandby.TabIndex = 0;
+            this.lightStandby.TabStop = true;
+            this.lightStandby.Text = "Standby";
+            this.lightStandby.UseVisualStyleBackColor = true;
             // 
             // callmeback
             // 

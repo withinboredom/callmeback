@@ -15,5 +15,25 @@ namespace callback
         {
             InitializeComponent();
         }
+
+        private void OptionsButton_Click(object sender, EventArgs e)
+        {
+            ActivatedBox.Checked = false;
+
+            Options optionsbox = new Options();
+
+            optionsbox.ShowDialog();
+        }
+
+        private void QuitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void AboutButton_Click(object sender, EventArgs e)
+        {
+            AboutBox1 about = new AboutBox1();
+            about.Show();
+        }
     }
 }
