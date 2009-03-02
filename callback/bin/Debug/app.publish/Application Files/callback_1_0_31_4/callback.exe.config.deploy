@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="callback.Settings1" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="callback.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <callback.Settings1>
+            <setting name="username" serializeAs="String">
+                <value>landers.robert@gmail.com</value>
+            </setting>
+            <setting name="password" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="savepass" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="pop3" serializeAs="String">
+                <value>pop.gmail.com</value>
+            </setting>
+            <setting name="usessl" serializeAs="String">
+                <value>True</value>
+            </setting>
+        </callback.Settings1>
+        <callback.Properties.Settings>
+            <setting name="ExitOnUserLogoff" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ExitOnSkypeStop" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="SetSilentModeOn" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowAPIErrorMessages" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="StartSkypeIfNeeded" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="StartSkypeMinimized" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StartSkypeNosplash" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="AutoScroll" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="HideAPI" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="FirstTime" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="AlwaysFirstTime" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AlwaysNonWaitedAttach" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="AutoDebugOn" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Blocking" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="CommandId" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="SaveTheText" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="SavedCommandText" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SavedExpectedText" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="RetryCommandTimeOut" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="HideSkype4COM" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_StartUsTotallyInvisible"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ShowSystemTrayNotifyIcon"
+                serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TheNotifyIconExample_StartUsMinimized" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ShowUsInTaskbarWhenMinimized"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ShowUsInTaskbarWhenNormal"
+                serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ExitAlways" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ExitWarningMessageBoxIsDisplayed"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseSingleRightClickDisabled"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseSingleLeftClickShowsForm1"
+                serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseSingleRightClickShowsForm1"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseSingleLeftClickShowsContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseSingleLeftClickUsesDifferentContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseDoubleLeftClickShowsContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseDoubleRightClickShowsContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseDoubleLeftClickShowsForm1"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_NotifyIconMouseDoubleRightClickShowsForm1"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ExitWarningBalloonTipIsDisplayed"
+                serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TheNotifyIconExample_ExitWarningBalloonTipIsDisplayedForThisManyMilliseconds"
+                serializeAs="String">
+                <value>2000</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseDoubleLeftClickMinimizesForm1"
+                serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseDoubleLeftClickShowsContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseDoubleRightClickMinimizesForm1"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseDoubleRightClickShowsContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseSingleLeftClickMinimizesForm1"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseSingleLeftClickShowsContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseSingleLeftClickUsesDifferentContextMenuStrip"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseSingleRightClickDisabled"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_Form1MouseSingleRightClickMinimizesForm1"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TheNotifyIconExample_StartUsSingleInstanceOnly"
+                serializeAs="String">
+                <value>False</value>
+            </setting>
+        </callback.Properties.Settings>
+    </userSettings>
+</configuration>

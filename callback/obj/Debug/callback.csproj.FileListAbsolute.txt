@@ -1,0 +1,41 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\callback.exe.config
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\Interop.SKYPE4COMLib.dll
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.csproj.ResolveComReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\callback.exe.manifest
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\callback.application
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\callback.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\callback.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\Interop.SKYPE4COMLib.dll
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\bin\Debug\SKYPE4~1.DLL
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.console.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.Form1.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.Properties.Resources.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.csproj.GenerateResource.Cache
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.exe.manifest
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.application
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\callback\obj\Debug\callback.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\callback.exe.config
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\Interop.SKYPE4COMLib.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.csproj.ResolveComReference.cache
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.exe
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\callback.exe.manifest
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\callback.application
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\callback.exe
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\callback.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\Interop.SKYPE4COMLib.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\SKYPE4~1.DLL
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.Properties.Resources.resources
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.csproj.GenerateResource.Cache
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.exe.manifest
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.application
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\Interop.AOSMTPLib.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\Interop.AOSMTPLib.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\Pop3.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Debug\Pop3.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.callmeback.resources
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.Options.resources
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Debug\callback.AboutBox1.resources
