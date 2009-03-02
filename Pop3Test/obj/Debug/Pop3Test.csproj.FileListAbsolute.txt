@@ -1,0 +1,9 @@
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\bin\Debug\Pop3Test.exe
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\bin\Debug\Pop3Test.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\bin\Debug\Pop3.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\bin\Debug\Pop3.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\obj\Debug\Pop3Test.exe
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\obj\Debug\Pop3Test.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\bin\Debug\Smtp.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Pop3Test\bin\Debug\Smtp.pdb
