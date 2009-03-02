@@ -1,0 +1,5 @@
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Smtp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Smtp\bin\Release\Smtp.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Smtp\bin\Release\Smtp.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Smtp\obj\Release\Smtp.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\Smtp\obj\Release\Smtp.pdb
