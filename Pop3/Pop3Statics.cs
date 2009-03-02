@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace Pop3
 {
-    class Pop3Statics
+    public class Pop3Statics
     {
         public const string DataFolder = @"Pop3Temp";
 

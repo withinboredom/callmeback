@@ -53,6 +53,7 @@
     <Compile Include="Pop3Message.cs" />
     <Compile Include="Pop3MessageComponents.cs" />
     <Compile Include="Pop3MessageException.cs" />
+    <Compile Include="Pop3MessageFilter.cs" />
     <Compile Include="Pop3MissingBoundaryException.cs" />
     <Compile Include="Pop3Parse.cs" />
     <Compile Include="Pop3ReceiveException.cs" />

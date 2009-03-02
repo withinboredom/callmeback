@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace Pop3
 {
-    class Pop3Message
+    public class Pop3Message
     {
         private Socket m_client;
 
@@ -283,6 +283,17 @@ namespace Pop3
                     break;
                 }
             }
+        }
+
+        public Pop3Message()
+        {
+            m_inboxPosition = 0;
+            m_client = null;
+            m_messageSize = 0;
+
+            m_pop3State = new Pop3StateObject();
+            m_pop3State.workSocket = m_client;
+            m_pop3State.sb = new StringBuilder();
         }
 
         public override string ToString()

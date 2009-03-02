@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Pop3
 {
-    class Pop3StateObject
+    public class Pop3StateObject
     {
         //client socket
         public Socket workSocket = null;

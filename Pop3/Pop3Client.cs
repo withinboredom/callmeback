@@ -12,7 +12,7 @@ using System.Diagnostics;
 
 namespace Pop3
 {
-    class Pop3Client
+    public class Pop3Client
     {
         private Pop3Credential m_credential;
 

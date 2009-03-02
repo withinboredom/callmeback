@@ -21,14 +21,11 @@ C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Rele
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\callback.application
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\callback.exe
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\callback.pdb
-C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Interop.ANPOPLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Interop.SKYPE4COMLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\SKYPE4~1.DLL
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\Interop.ANPOPLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\Interop.SKYPE4COMLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.csproj.ResolveComReference.cache
-C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.console.resources
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.Properties.Resources.resources
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.csproj.GenerateResource.Cache
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.exe.manifest
@@ -38,3 +35,7 @@ C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Rele
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Interop.AOSMTPLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\Interop.AOSMTPLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.callmeback.resources
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Pop3.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Pop3.pdb
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.AboutBox1.resources
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.Options.resources

@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace Pop3
 {
-    class Pop3Parse
+    public class Pop3Parse
     {
         private static string[] m_lineUpperTypeString = 
         {

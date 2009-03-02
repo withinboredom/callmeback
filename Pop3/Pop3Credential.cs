@@ -2,7 +2,7 @@
 
 namespace Pop3
 {
-    class Pop3Credential
+    public class Pop3Credential
     {
         private string m_user;
         private string m_pass;

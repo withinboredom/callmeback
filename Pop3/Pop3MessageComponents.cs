@@ -5,7 +5,7 @@ using System.Collections;
 
 namespace Pop3
 {
-    class Pop3MessageComponents
+    public class Pop3MessageComponents
     {
         private ArrayList m_component = new ArrayList();
 

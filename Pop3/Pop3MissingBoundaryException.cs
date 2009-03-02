@@ -2,7 +2,7 @@
 
 namespace Pop3
 {
-    class Pop3MissingBoundaryException : Exception
+    public class Pop3MissingBoundaryException : Exception
     {
         private string m_exceptionString;
 

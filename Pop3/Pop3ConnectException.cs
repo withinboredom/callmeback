@@ -2,7 +2,7 @@
 
 namespace Pop3
 {
-    class Pop3ConnectException : Exception
+    public class Pop3ConnectException : Exception
     {
         private string m_exceptionstring;
 

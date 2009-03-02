@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace Pop3
 {
-    class Pop3Component
+    public class Pop3Component
     {
         private string m_contentType;
         private string m_name;

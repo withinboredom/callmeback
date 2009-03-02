@@ -58,14 +58,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="callback.exe" size="71168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="callback.exe" size="72192">
       <assemblyIdentity name="callback" version="1.0.31.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>mJ7XGaoxZulJPy06et/tTBRFyAs=</dsig:DigestValue>
+        <dsig:DigestValue>44KZg7Kk8qpYnoRA5CALriUfkv0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -94,14 +94,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pop3.dll" size="21504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pop3.dll" size="22016">
       <assemblyIdentity name="Pop3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LYFfFN3TRyFety0OgSS97Ksnb1s=</dsig:DigestValue>
+        <dsig:DigestValue>oi6bKqb1rrjGJWqm/GqXj6LmEYo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
