@@ -32,10 +32,10 @@ C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Rele
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.application
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.exe
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.pdb
-C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Interop.AOSMTPLib.dll
-C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\Interop.AOSMTPLib.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.callmeback.resources
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Pop3.dll
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Pop3.pdb
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.AboutBox1.resources
 C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\obj\Release\callback.Options.resources
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Smtp.dll
+C:\Users\Robert\Documents\Visual Studio 2008\Projects\callback\callback\bin\Release\Smtp.pdb

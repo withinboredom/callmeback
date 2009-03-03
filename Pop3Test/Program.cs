@@ -67,16 +67,29 @@ namespace Pop3Test
 
                         Console.WriteLine("HTMLless Body: " + client.Body);
 
-                        ArrayList numbers = getPhoneNumbers(htmlless);
+                        ArrayList numbers = client.HarvestPhoneNumbers("call 2");
 
-                        if (numbers.Count > 0)
+                        /*if (numbers.Count > 0)
                         {
                             Console.WriteLine("Phone Numbers Harvested: ");
                             for (int i = 0; i < numbers.Count; i++)
                             {
                                 Console.WriteLine("\tNo. " + i.ToString() + ": " + numbers[i]);
                             }
-                        }
+                        }*/
+                    }
+
+                    Console.WriteLine("testing email carrier: ~rlanders@rlanders.com=tryme.wav~callme@rlanders.com=whatever.wav");
+                    string test = "~rlanders@rlanders.com=tryme.wav~callme@rlanders.com=whatever.wav";
+
+                    while (test.Length > 0)
+                    {
+                        string attach = test.Substring(test.LastIndexOf("=") + 1);
+                        test = test.Remove(test.LastIndexOf("="));
+                        Console.WriteLine("attach: " + attach);
+                        string to = test.Substring(test.LastIndexOf("~") + 1);
+                        test = test.Remove(test.LastIndexOf("~"));
+                        Console.WriteLine("send above to: " + to);
                     }
 
                     client.CloseConnection();

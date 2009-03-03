@@ -4,14 +4,14 @@
   <description asmv2:publisher="A Robert Landers Production" co.v1:suiteName="CallBack" asmv2:product="CallBack" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" minimumRequiredVersion="1.0.31.0" co.v1:createDesktopShortcut="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="callback.exe.manifest" size="15006">
+    <dependentAssembly dependencyType="install" codebase="callback.exe.manifest" size="14980">
       <assemblyIdentity name="callback.exe" version="1.0.31.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>tE1iN7nS4hHgtyz+jJZeROF4dyA=</dsig:DigestValue>
+        <dsig:DigestValue>T1kja71DeVeqrD+ObVO2uaKUX20=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

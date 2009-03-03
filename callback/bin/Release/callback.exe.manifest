@@ -58,26 +58,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="callback.exe" size="70144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="callback.exe" size="76800">
       <assemblyIdentity name="callback" version="1.0.31.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bkwINhJZtXkoTdD5kY8WVBxfwEQ=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.AOSMTPLib.dll" size="45056">
-      <assemblyIdentity name="Interop.AOSMTPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>lSKmTCsm1AXRh7gIjMsVye18FXc=</dsig:DigestValue>
+        <dsig:DigestValue>RAMIBWQdkljbJbM/VXc2Y5GCiyI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -94,24 +82,36 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pop3.dll" size="19968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pop3.dll" size="20992">
       <assemblyIdentity name="Pop3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>W6rpSlH2GgNxyg97IPHYftFdd/s=</dsig:DigestValue>
+        <dsig:DigestValue>OmC7HvAYZ830fQ5/j44cSqpwcbM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="callback.exe.config" size="10174">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Smtp.dll" size="14848">
+      <assemblyIdentity name="Smtp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4OPNHgHhv8vwKN2XWdNbOqdwGHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="callback.exe.config" size="10292">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>66C4ZPxhGxk2+59OoqqSHmc4MO8=</dsig:DigestValue>
+      <dsig:DigestValue>l+ynpM8w+6ZV777Ih924WPSllVI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SKYPE4~1.DLL" asmv2:size="1942864" xmlns="urn:schemas-microsoft-com:asm.v1">

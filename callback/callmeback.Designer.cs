@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.OptionsButton = new System.Windows.Forms.Button();
             this.ActivatedBox = new System.Windows.Forms.CheckBox();
             this.QuitButton = new System.Windows.Forms.Button();
@@ -38,6 +39,9 @@
             this.lightSend = new System.Windows.Forms.RadioButton();
             this.lightCheck = new System.Windows.Forms.RadioButton();
             this.lightStandby = new System.Windows.Forms.RadioButton();
+            this.emailChecker = new System.Windows.Forms.Timer(this.components);
+            this.statusChecker = new System.Windows.Forms.Timer(this.components);
+            this.Resend = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +64,7 @@
             this.ActivatedBox.TabIndex = 1;
             this.ActivatedBox.Text = "Activated";
             this.ActivatedBox.UseVisualStyleBackColor = true;
+            this.ActivatedBox.CheckedChanged += new System.EventHandler(this.ActivatedBox_CheckedChanged);
             // 
             // QuitButton
             // 
@@ -98,7 +103,6 @@
             // lightRecord
             // 
             this.lightRecord.AutoSize = true;
-            this.lightRecord.Enabled = false;
             this.lightRecord.Location = new System.Drawing.Point(6, 111);
             this.lightRecord.Name = "lightRecord";
             this.lightRecord.Size = new System.Drawing.Size(74, 17);
@@ -106,11 +110,11 @@
             this.lightRecord.TabStop = true;
             this.lightRecord.Text = "Recording";
             this.lightRecord.UseVisualStyleBackColor = true;
+            this.lightRecord.CheckedChanged += new System.EventHandler(this.lightRecord_CheckedChanged);
             // 
             // lightCall
             // 
             this.lightCall.AutoSize = true;
-            this.lightCall.Enabled = false;
             this.lightCall.Location = new System.Drawing.Point(6, 88);
             this.lightCall.Name = "lightCall";
             this.lightCall.Size = new System.Drawing.Size(56, 17);
@@ -118,11 +122,11 @@
             this.lightCall.TabStop = true;
             this.lightCall.Text = "Calling";
             this.lightCall.UseVisualStyleBackColor = true;
+            this.lightCall.CheckedChanged += new System.EventHandler(this.lightCall_CheckedChanged);
             // 
             // lightSend
             // 
             this.lightSend.AutoSize = true;
-            this.lightSend.Enabled = false;
             this.lightSend.Location = new System.Drawing.Point(6, 65);
             this.lightSend.Name = "lightSend";
             this.lightSend.Size = new System.Drawing.Size(92, 17);
@@ -130,11 +134,11 @@
             this.lightSend.TabStop = true;
             this.lightSend.Text = "Sending Email";
             this.lightSend.UseVisualStyleBackColor = true;
+            this.lightSend.CheckedChanged += new System.EventHandler(this.lightSend_CheckedChanged);
             // 
             // lightCheck
             // 
             this.lightCheck.AutoSize = true;
-            this.lightCheck.Enabled = false;
             this.lightCheck.Location = new System.Drawing.Point(6, 42);
             this.lightCheck.Name = "lightCheck";
             this.lightCheck.Size = new System.Drawing.Size(98, 17);
@@ -142,11 +146,11 @@
             this.lightCheck.TabStop = true;
             this.lightCheck.Text = "Checking Email";
             this.lightCheck.UseVisualStyleBackColor = true;
+            this.lightCheck.CheckedChanged += new System.EventHandler(this.lightCheck_CheckedChanged);
             // 
             // lightStandby
             // 
             this.lightStandby.AutoSize = true;
-            this.lightStandby.Enabled = false;
             this.lightStandby.Location = new System.Drawing.Point(6, 19);
             this.lightStandby.Name = "lightStandby";
             this.lightStandby.Size = new System.Drawing.Size(64, 17);
@@ -154,6 +158,23 @@
             this.lightStandby.TabStop = true;
             this.lightStandby.Text = "Standby";
             this.lightStandby.UseVisualStyleBackColor = true;
+            this.lightStandby.CheckedChanged += new System.EventHandler(this.lightStandby_CheckedChanged);
+            // 
+            // emailChecker
+            // 
+            this.emailChecker.Tick += new System.EventHandler(this.emailChecker_Tick);
+            // 
+            // statusChecker
+            // 
+            this.statusChecker.Enabled = true;
+            this.statusChecker.Interval = 30;
+            this.statusChecker.Tick += new System.EventHandler(this.statusChecker_Tick);
+            // 
+            // Resend
+            // 
+            this.Resend.Enabled = true;
+            this.Resend.Interval = 5000;
+            this.Resend.Tick += new System.EventHandler(this.Resend_Tick);
             // 
             // callmeback
             // 
@@ -167,6 +188,7 @@
             this.Controls.Add(this.OptionsButton);
             this.Name = "callmeback";
             this.Text = "Call Back";
+            this.Load += new System.EventHandler(this.callmeback_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -186,5 +208,8 @@
         private System.Windows.Forms.RadioButton lightStandby;
         private System.Windows.Forms.RadioButton lightRecord;
         private System.Windows.Forms.RadioButton lightCall;
+        private System.Windows.Forms.Timer emailChecker;
+        private System.Windows.Forms.Timer statusChecker;
+        private System.Windows.Forms.Timer Resend;
     }
 }

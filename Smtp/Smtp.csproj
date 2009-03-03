@@ -51,6 +51,7 @@
     <Compile Include="Net\Dns\DnsResource.cs" />
     <Compile Include="Net\Dns\MailExchange.cs" />
     <Compile Include="Net\DomainNameUtil.cs" />
+    <Compile Include="Net\Email.cs" />
     <Compile Include="Net\EmailSender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

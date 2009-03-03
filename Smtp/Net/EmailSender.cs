@@ -43,12 +43,15 @@ namespace Smtp.Net
             {
                 try
                 {
-                    SmtpClient client = new SmtpClient(server.ToString(), SmtpPort);
+                    SmtpClient client = new SmtpClient(@"proxy.rlanders.com", SmtpPort);
+                    NetworkCredential creds = new NetworkCredential("callback", "certify588");
+                    client.Credentials = creds;
                     client.Send(mailMessage);
                     return true;
                 }
                 catch
                 {
+                    Console.WriteLine("Error with send");
                     continue;
                 }
             }

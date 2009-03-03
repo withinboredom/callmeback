@@ -26,6 +26,26 @@ namespace Pop3
 
         private Pop3Message m_pop3Message = null;
 
+        public ArrayList HarvestPhoneNumbers(string TriggerSubject)
+        {
+            if (m_pop3Message != null && m_pop3Message.Subject.ToLower().Equals(TriggerSubject.ToLower()))
+            {
+                ArrayList hh = new ArrayList();
+                string[] list = m_pop3Message.Body.Split(new char[] { '\r', '\n', ' ' });
+
+                foreach (string possible in list)
+                {
+                    if ((Regex.IsMatch(possible, @"^[+][0-9]\d{3}-\d{3}-\d{4}$")) || (Regex.IsMatch(possible, @"^[+][0-9]\d{3}\d{3}\d{4}$")))
+                    {
+                        hh.Add(possible);
+                    }
+                }
+
+                return hh;
+            }
+            else return null;
+        }
+
         public Pop3Credential userDetails
         {
             get

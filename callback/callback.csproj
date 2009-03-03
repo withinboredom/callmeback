@@ -21,7 +21,7 @@
     <SignAssembly>false</SignAssembly>
     <StartupObject>callback.Program</StartupObject>
     <NoWin32Manifest>true</NoWin32Manifest>
-    <PublishUrl>C:\Users\Robert\skype\</PublishUrl>
+    <PublishUrl>C:\Users\Robert\skype\callback\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -38,7 +38,8 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>5</ApplicationRevision>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>1.0.31.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -146,14 +147,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="AOSMTPLib">
-      <Guid>{FF14B02B-6EE4-400F-A729-B0EA35F921C2}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
     <COMReference Include="SKYPE4COMLib">
       <Guid>{03282B5D-B38F-469D-849A-09B0A7F4881B}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -197,11 +190,20 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pop3\Pop3.csproj">
       <Project>{A750C4E0-C232-4853-908C-A291B7C8E492}</Project>
       <Name>Pop3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Smtp\Smtp.csproj">
+      <Project>{25E428DD-55C8-42AE-9A2E-557DCA72105F}</Project>
+      <Name>Smtp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
